@@ -206,7 +206,7 @@ scoff(lst) <- cbind(0.02, -273.15)
 # Run the three-part analysis
 ts_results <- extract_point_timeseries(lst)
 climate_results <- calculate_monthly_climatology(lst)
-landcover_results <- analyze_lst_by_landcover(lst_file, lulc_file)
+#landcover_results <- analyze_lst_by_landcover(lst_file, lulc_file)
 
 print("Part 1: Time Series Analysis")
 print(ts_results$plot)
